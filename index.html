@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navBar">
+        <ul class="header">
+          <li><a href="#secao-cv">Ínicio</a></li>
+          <li><a href="#secao-sobre">Sobre</a></li>
+          <li><a href="#secao-projetos">Projetos</a></li>
+        </ul>
+        <hr class="row-nav" />
+      </nav>
+
+      <div class="btn-abrir-menu" id="btn-menu"><i class="bi bi-list"></i></div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar"><i class="bi bi-x-lg"></i></div>
+        <nav>
+          <ul class="">
+            <li><a href="#secao-cv">Ínicio</a></li>
+            <li><a href="#secao-sobre">Sobre</a></li>
+            <li><a href="#secao-projetos">Projetos</a></li>
+          </ul>
+        </nav>
+        
+      </div>
+
+      <div class="overlay-menu" id="overlay-menu"></div>
+
+    </header>
+    <main data-theme="dark">
+      <section aria-label="seção curriculo download Leandro" class="section-cv" id="secao-cv">
+        <div>
+          <h2>Olá, meu nome é Leandro Naves</h2>
+          <h2 class="digitando">Web Developer and FullStack Student</h2>
+          <p>
+            Tenho 18 anos, sou um estudante de desenvolvimento web e
+            atualmente cursando Análise e Desenvolvimento de Sistemas.
+          </p>
+          <a href="./Arquivos/Leandro_NavesGuerra_CV.pdf" download=""
+            >Download CV</a
+          >
+        </div>
+        <img
+          src="./img/Minha foto.jpg"
+          alt="Minha-foto"
+          class="image-profile"
+        />
+        <button id="tema" >Tema Claro/Escuro</button>
+        
+      </section>
+
+      <section class="sobre" id="secao-sobre">
+        <div class="sobre-titulo">
+          <h1 class="sublinhado">Sobre mim</h1>
+          <p>Perfil Profissional - Aqui há tudo sobre mim</p>
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="sobre-texto">
+          <h1>Conheça Leandro Naves</h1>
+          <p>
+            Olá, como disse meu nome é Leandro Naves Guerra, um apaixonado por
+            tecnologia e desenvolvimento web, com 18 anos de idade e um firme
+            compromisso com o aprendizado contínuo e a inovação. Atualmente,
+            estou cursando Análise e Desenvolvimento de Sistemas, buscando
+            aprimorar minha compreensão deste mundo vasto do T.I o e aplicar
+            esse conhecimento em projetos práticos.
+          </p>
+          <br />
+          <br />
+          <p>
+            Minha jornada no mundo da programação começou cedo, e desde então
+            tenho trabalhado arduamente para aprimorar minhas habilidades. A
+            área de desenvolvimento web fullstack despertou meu interesse, e
+            venho me dedicando a aprender linguagens de programação, frameworks
+            e tecnologias que impulsionam a web moderna.
+          </p>
+        </div>
+        <div class="conteudo-tecnologias">
+          <h3>Techs :</h3>
+
+          <div class="tecnologias">
+            <ul>
+              <li>
+                <div data="HTML">
+                  <img src="./img/html-5 (2).png" alt="html-icon" />
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div data="CSS">
+                  <img src="./img/css-3.png" alt="css-icon" />
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div data="JS">
+                  <img src="./img/js.png" alt="js-icon" />
+                </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+    </main>
+    <section class="projetos" id="secao-projetos">
+        <div class="sobre-titulo">
+          <h1 class="titulo-projetos">Meus Projetos</h1>
+          <p>Projetos Pessoais - Tudo o que desenvolvi até o momento</p>
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="meus-projetos">
+            <ul>
+              <a href="https://github.com/LeandroNves/Site-com-CSS" target="_blank">
+              <li>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Site com CSS</h3>
+                <p>Site responsivo simples trabalhado com HTML e CSS</p>
+              </li>
+            </a>
+              <a href="https://github.com/LeandroNves/Cadastro-de-Vagas-em-JavaScript" target="_blank">
+                <li>
+                <i class="fa-solid fa-cubes"></i>
+                <h3>Cadastro de Vagas em JavaScript</h3>
+                <p>Código JavaScript que implementa um sistema simples de cadastro de vagas de emprego.</p>
+              </li>
+            </a>
+              <a href="https://github.com/LeandroNves/Calculadora-Com-JavaScript" target="_blank">
+                <li>
+                <i class="fa-solid fa-calculator"></i>
+                <h3>Calculadora com JS</h3>
+                <p>Calculadora desenvolvida com programação orientada a objetos </p>
+              </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+
+    <hr id="footer-linha">
+    <footer class="main-footer">
+      <a href=""><i class="fa-solid fa-house" id="icone-home"></i></a>
+      <div class="contato">
+        <a href="https://www.linkedin.com/in/leandro-naves-guerra-7928a721b/" style="--color: #0072b1;" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/lendronaves/" style="--color: #E1306C;" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/LeandroNves" style="--color: #fff;" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="" style="--color: #00bfff;"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/449e9c49d7.js" crossorigin="anonymous" defer></script>
+  </body>
+
+  <script src="script.js"></script>
+</html>
